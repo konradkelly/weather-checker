@@ -49,12 +49,12 @@ public class WeatherSummary {
     
         scan.close();
 
-        System.out.println("The Maximum temperature is " + max);
-        System.out.println("The Minimum temperature is " + min);
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
         
         if (count > 0) {
         double average = total / count;
-        System.out.println("The Average temperature is " + average);
+        System.out.println("Average: " + average);
         }
     }
 }
